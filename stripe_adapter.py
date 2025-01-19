@@ -5,7 +5,7 @@ import stripe
 app = Flask(__name__)
 
 # Set your Stripe secret key
-stripe.api_key = "sk_test_51QiyicFzLJ9rHPShI8yqpFQpqBntGejz58z1opbMikeoZJ1Pw1zaZIsZScPCDyT3GoffiS8AwR85JivkqZWDoWaO00OCETdnuJ"
+stripe.api_key = "API"
 
 # Endpoint to create a customer
 @app.route('/webhook/customers', methods=['POST'])
